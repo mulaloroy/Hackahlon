@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lora:wght@500&family=Raleway:ital,wght@0,200;0,500;1,100;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lora:wght@500&family=Raleway:ital,wght@0,200;0,500;1,100;1,600&family=Roboto+Serif:wght@100&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
 @media only screen and(max-width:700px) {
     nav ul{
         width: 100%;
@@ -22,7 +24,7 @@
 
 *{
     box-sizing: border-box;
-  font-family:Raleway
+  font-family:raleway
 
 
 }html,body{
@@ -102,7 +104,7 @@ p{
 
     /*FEATURES*/
     .container-fluid{
-        background-color: rgb(205, 240, 82);
+        background-color: rgb(184, 34, 109);
     }
     .myvid1{
         background-color: gray;
@@ -163,7 +165,7 @@ p{
 
 }
 .autocom-box li:hover{
-    background: greenyellow;
+    background: rgb(216, 164, 192);
 
    
 }
@@ -174,7 +176,7 @@ p{
 /*footer*/
 .myclass  {
     color: brown;
-    background-color:rgb(220, 235, 135);
+    background-color:rgb(245, 228, 232);
     box-shadow: 1px;
     margin-top: 150px;
     
@@ -224,7 +226,7 @@ ion-icon{
     }
 
     .autocom-box li:hover{
-        background: greenyellow;
+        background: rgb(238, 193, 205);
     
        
     }
@@ -245,7 +247,7 @@ ion-icon{
 
 .p-3{
     height: 450px;
-    background-color: rgb(205, 240, 82);
+    background-color: rgb(241, 125, 174);
     text-align: center;
     border-radius: 15px;
     
