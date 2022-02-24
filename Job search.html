@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div>
+        <!--css strats here,is for nav-->
+        <header  class="main-header">
+            <nav class="nav  main nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About us.html"> About us</a></li>
+                    <li><a href="Features.html">Features </a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Job search.html">Job search</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <br>
+           <!--Apply-->
+    <div class="myform">  
+        <form class="row g-3 ">
+             <!--PERSONAL-->
+             <h4>Personal details</h4>
+            <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+            </div>
+            <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+            </div>
+            <div class="col-md-4">
+            <label for="validationDefaultUsername" class="form-label">Email</label>
+            <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <label for="validationDefault03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+            <label for="validationDefault04" class="form-label">Province</label>
+            <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>Gauteng</option>
+                <option>Western Cape</option>
+                <option>Kwazulu-Natal</option>
+                <option>Limpopo</option>
+                <option>North-West</option>
+                <option>Mpumalanga</option>
+                <option>Free-state</option>
+                <option>Northern Cape</option>
+                <option>Eastern Cape</option>
+                
+            </select>
+            </div>
+            <div class="col-md-3">
+            <label for="validationDefault05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+             <!--ACADEMIC-->
+             <h4>Qualification</h4>
+             
+             <select class="form-select" aria-label="Default select example">
+                <option selected>Highest qualification</option>
+                <option value="1">Matric</option>
+                <option value="2">Higher Certificate</option>
+                <option value="3">Diploma</option>
+                <option value="4">Degree</option>
+                <option value="6">Honours</option>
+                <option value="7">Masters</option>
+                <option value="8">PHD</option>
+                <option value="9">None</option>
+              </select>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name of Institution</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Name of the institution where Highest qualification was acquired.</div>
+              </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Field of study</option>
+                <option value="1">Information Technology</option>
+                <option value="2">Mathematics</option>
+                <option value="3">Biological Science</option>
+                <option value="4">Engeeniring</option>
+                <option value="5">Finance</option>
+                <option value="6">Education</option>
+                <option value="7">Arts</option>
+                <option value="9">Law</option>
+                <option value="10">Health</option>
+                <option value="11">Hospitality</option>
+                <option value="12">Marketing</option>
+                <option value="13">Design</option>
+              </select>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select field of study if you have qualifications</option>
+                <option value="1">Information Technology</option>
+                <option value="2">Mathematics</option>
+                <option value="3">Biological Science</option>
+                <option value="4">Engeeniring</option>
+                <option value="5">Finance</option>
+                <option value="6">Education</option>
+                <option value="7">Arts</option>
+                <option value="9">Law</option>
+                <option value="10">Health</option>
+                <option value="11">Hospitality</option>
+                <option value="12">Marketing</option>
+                <option value="13">Design</option>
+              </select>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Are open to getting jobs to alternative fields</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+
+
+
+
+
+            <!--WORK-->
+            <h5>Exprience</h5>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Sector you worked on</option>
+                <option value="1">Information Technology</option>
+                <option value="2">Mathematics</option>
+                <option value="3">Biological Science</option>
+                <option value="4">Engeeniring</option>
+                <option value="5">Finance</option>
+                <option value="6">Education</option>
+                <option value="7">Arts</option>
+                <option value="9">Law</option>
+                <option value="10">Health</option>
+                <option value="11">Hospitality</option>
+                <option value="12">Marketing</option>
+                <option value="13">Design</option>
+              </select>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Exprience</option>
+                <option value="1">none</option>
+                <option value="2">1 year</option>
+                <option value="3">2 years</option>
+                <option value="4">3 years</option>
+                <option value="5">4 years</option>
+                <option value="6">5++ years</option>
+              </select>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Exprience from different Industy</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Second industry exprience </option>
+                <option value="1">Information Technology</option>
+                <option value="2">Mathematics</option>
+                <option value="3">Biological Science</option>
+                <option value="4">Engeeniring</option>
+                <option value="5">Finance</option>
+                <option value="6">Education</option>
+                <option value="7">Arts</option>
+                <option value="9">Law</option>
+                <option value="10">Health</option>
+                <option value="11">Hospitality</option>
+                <option value="12">Marketing</option>
+                <option value="13">Design</option>
+              </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+                </label>
+            </div>
+            </div>
+            <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+    </div> 
+
+
+    <section class="database">
+    <h3>JOBS MATCHING YOUR PROFILE</h3>
+
+    <table class="table mb-5 pb-5 table-hover table-success mytable">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Company </th>
+          <th scope="col">Position</th>
+          <th scope="col">Location</th>
+          <th scope="col">Job type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>ABSA</td>
+          <td>Software ingineer</td>
+          <td>Venda</td>
+          <td>Internship</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>FNB</td>
+          <td>Data scientist</td>
+          <td>Jozi</td>
+          <td>Permanent</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Nedbank</td>
+          <td>Data engineer</td>
+          <td>Jozi</td>
+          <td>Permanent</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Standard bank</td>
+          <td>Data Analyst</td>
+          <td>Polokwane</td>
+          <td>Temporaly</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Capitac bank</td>
+          <td>Data Analyst</td>
+          <td>Port Elizabeth</td>
+          <td>Learnship</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Discovery</td>
+          <td>Clerk</td>
+          <td>Pretoria</td>
+          <td>Learnership</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Delloite</td>
+          <td>Accountant</td>
+          <td>Johannesburg</td>
+          <td>Permanant</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Sasol</td>
+          <td>System analist</td>
+          <td>Johannesburg</td>
+          <td>Internship</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Rand water</td>
+          <td>Civil engineer</td>
+          <td>Nelpruit</td>
+          <td>2 year contract</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>JSE</td>
+          <td>Data Analyst</td>
+          <td>Johanesburg</td>
+          <td>Permanant</td>
+        </tr>
+      </tbody>
+    </table> 
+    </section>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--FOOTER-->
+    </div class="container-fluid">
+        <div class="row fixed-bottom h-25 myclass ">
+            <div class="col contact">
+                <h4>Contact us</h4>
+                <ul>
+                  <li style="font-weight:bold"> Email</li>
+                  <li> mulalo@gmail.com </li>
+                  <li  style="font-weight:bold"> Phone</li>
+                  <li> 0798137233</li>
+              </ul>
+            </div>
+            <div class="col mylinks">
+                <h4>Quick links</h4> 
+                <ul>
+                    <li><a href="url"> Home</a></li>
+                    <li><a href="url"> About</a></li>
+                    <li><a href="url"> Blog </a></li>
+                    <li><a href="url"> Contact </a></li>
+                </ul>
+            </div>
+            <div class="col myadress">
+                <h4>Address</h4>
+               <ul>
+                  <li> 12061 Mopane Street</li>
+                  <li> Kagiso Ext 6 </li>
+                  <li> Krugersdorp</li>
+                  <li> 1754 </li>
+              </ul>
+            </div>
+            <div class="col mysocial">
+                <h4>Social media</h4> 
+                <ul>
+                    <li><a href="https://www.linkedin.com/company/younglingsafrica/"> 
+                        <ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://www.facebook.com/YounglingsAfrica"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li ><a href="https://www.youtube.com/channel/UCQkQrnBZJ3Qh_k5WEc9DNvQ"> <ion-icon id="youtube" name="logo-youtube"></ion-icon></a></li>
+                    <li><a href="https://twitter.com/DThompsonDev"> 
+                        <ion-icon name="logo-twitter"></ion-icon></ion-icon></a></li>
+                </ul>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <!--ICONS-->
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+ <!--JAVASCRIPT-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="JS/suggestion.js"></script>
+<script src="JS/script.js"></script>
+    
+  </body>
+</html>
+
+
+
+
+
