@@ -164,8 +164,9 @@ p{
     display:none
 
 }
-.autocom-box li:hover{
+.autocom-box li:hover main
     background: rgb(216, 164, 192);
+    background: rgb(216,164,192); main
 
    
 }
@@ -225,8 +226,9 @@ ion-icon{
         display:none
     }
 
-    .autocom-box li:hover{
+    .autocom-box li:hover{ main
         background: rgb(238, 193, 205);
+        background: rgb(216,164,192); main
     
        
     }
