@@ -102,7 +102,7 @@ p{
 
     /*FEATURES*/
     .container-fluid{
-        background-color: rgb(205, 240, 82);
+        background-color: rgb(184, 34, 109);
     }
     .myvid1{
         background-color: gray;
@@ -163,7 +163,7 @@ p{
 
 }
 .autocom-box li:hover{
-    background: greenyellow;
+    background: rgb(216,164,192);
 
    
 }
@@ -174,7 +174,7 @@ p{
 /*footer*/
 .myclass  {
     color: brown;
-    background-color:rgb(220, 235, 135);
+    background-color:rgb(245, 228, 232);
     box-shadow: 1px;
     margin-top: 150px;
     
@@ -224,7 +224,7 @@ ion-icon{
     }
 
     .autocom-box li:hover{
-        background: greenyellow;
+        background: rgb(216,164,192);
     
        
     }
