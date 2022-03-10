@@ -91,6 +91,8 @@ nav{
 
 .content-section{
     margin-top: 50px;
+    margin-bottom: 50px;
+    color: aqua;
 }
 /* paragraphs margin and padding*/
 p{
@@ -108,20 +110,52 @@ p{
         background-color: rgb(184, 34, 109);
     }
     .myvid1{
-        background-color: gray;
+        background-color: white;
         max-width: 100%;
         max-height: 100%;
     }
     .myvid2{
-        background-color: gray;
+        background-color: white;
         max-width: 100%;
         max-height: 100%;
     }
     .myvid3{
-        background-color: gray;
+        background-color: white;
         max-width: 100%;
         max-height: 100%;
     }
+    .picbg1 img{
+       
+        width: 100%;
+        height: 200px;
+       
+    }
+    .picbg2 img{
+       
+        width: 100%;
+        height: 200px;
+    }
+    .picbg3 img{
+       
+        width: 100%;
+        height: 200px;
+    }
+    .picbg4 img{
+       
+        width: 100%;
+        height: 200px;
+    }
+    .picbg5 img{
+       
+        width: 100%;
+        height: 200px;
+    }
+    .picbg6 img{
+       
+        width: 100%;
+        height: 200px;
+    }
+    
 
 
     /*SEARCH BUTTON*/
